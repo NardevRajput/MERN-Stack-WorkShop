@@ -1,0 +1,44 @@
+<!-- Topic: Nesting Tags in HTML -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Nesting HTML Tags</title>
+</head>
+<body>
+
+    <h1>Nesting HTML Tags Correctly</h1>
+
+    <p>
+        This is a <strong>bold and <em>italic</em></strong> phrase.  
+        Here, <code>&lt;em&gt;</code> is nested inside <code>&lt;strong&gt;</code>.
+    </p>
+
+    <p>
+        You can also make text <u><mark>underlined and highlighted</mark></u> using nested tags.
+    </p>
+
+    <p>
+        <a href="https://example.com">
+            Click here to visit <strong>Example Website</strong>
+        </a>
+    </p>
+
+    <hr>
+
+    <h2>Incorrect Nesting Example (Do Not Do This)</h2>
+
+    <!-- Wrong: closing tags are in wrong order -->
+    <!-- <strong>This is <em>wrong nesting</strong></em> -->
+
+    <p>Always close the **inner tag first**, then the **outer tag**:</p>
+    <p><code>&lt;strong&gt;&lt;em&gt;Correct&lt;/em&gt;&lt;/strong&gt;</code></p>
+
+</body>
+</html>
+<!-- 
+    Nesting tags means placing one HTML tag inside another.
+    Always close the inner tag before the outer tag.
+    Incorrect nesting can lead to unexpected results in rendering.
+    Use semantic tags correctly to maintain structure and meaning.
